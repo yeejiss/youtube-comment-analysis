@@ -70,8 +70,8 @@ python $SCRIPT_PATH \
   --output_dir $OUTPUT_DIR \
   --embed_backend kcelectra \
   --run_mode few_shot \
-  --eval_split valid \
-  --top_k 15 \
+  --eval_split test \
+  --top_k 10 \
   --embedding_batch_size 32 \
   --embedding_max_length 128 
 
