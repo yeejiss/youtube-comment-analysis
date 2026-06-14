@@ -40,11 +40,10 @@ mkdir -p "$HF_HOME" "$TRANSFORMERS_CACHE" "$HF_DATASETS_CACHE"
 DATA_TAR=/data/$USER/repos/grad_project/data/yt_sentiment_labeled_1605.tar
 DATA_DIR=/local_datasets/yt_sentiment_labeled_1605
 OUTPUT_DIR=/data/$USER/repos/grad_project/results/exaone_sentiment_retrieval_fewshot
-SCRIPT_PATH=/data/$USER/repos/grad_project/exaone_sentiment.py
+SCRIPT_PATH=/data/$USER/repos/grad_project/src/exaone_sentiment.py
 
 
 # 3. 데이터 준비
-mkdir -p $DATA_DIR
 
 echo "Checking files..."
 

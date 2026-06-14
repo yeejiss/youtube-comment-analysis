@@ -41,7 +41,7 @@ mkdir -p "$HF_HOME" "$TRANSFORMERS_CACHE" "$HF_DATASETS_CACHE"
 DATA_TAR=/data/$USER/repos/grad_project/data/yt_topic_labeled_2189.tar
 DATA_DIR=/local_datasets/yt_topic_labeled_2189
 OUTPUT_DIR=/data/$USER/repos/grad_project/results/topic_multitask
-SCRIPT_PATH=/data/$USER/repos/grad_project/train_topic_multitask.py
+SCRIPT_PATH=/data/$USER/repos/grad_project/src/train_topic_multitask.py
 
 
 # 3. 데이터 준비
