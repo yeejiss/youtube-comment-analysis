@@ -8,6 +8,7 @@
 #SBATCH --output=logs/exaone_%j.out
 #SBATCH --error=logs/exaone_%j.err
 
+set -e
 
 # 1. 환경 설정
 source /data/$USER/anaconda3/etc/profile.d/conda.sh
@@ -44,6 +45,7 @@ SCRIPT_PATH=/data/$USER/repos/grad_project/src/exaone_sentiment.py
 
 
 # 3. 데이터 준비
+mkdir -p $DATA_DIR
 
 echo "Checking files..."
 
