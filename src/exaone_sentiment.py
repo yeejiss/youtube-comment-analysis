@@ -601,6 +601,7 @@ def main():
     args.active_embed_model_name = get_active_embed_model_name(args)
     set_seed(args.seed)
 
+    cache_dir = os.environ.get("HF_HOME")
     data_dir = Path(args.data_dir)
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
