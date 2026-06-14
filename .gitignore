@@ -1,0 +1,12 @@
+*
+
+!.gitignore
+
+!src/
+!src/**
+
+!scripts/
+!scripts/**
+
+!data/
+!data/*.tar
